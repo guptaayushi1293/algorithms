@@ -43,7 +43,7 @@ public class UserLinkedList {
             this.head = node;
         } else {
             var start = this.head;
-            while (position > 1) {
+            while (position > 1 && start.next != null) {
                 start = start.next;
                 position--;
             }
@@ -56,11 +56,25 @@ public class UserLinkedList {
         var index = 0;
         var start = this.head;
         var prev = start;
+        if (position == 0) {
+            this.head = start.next;
+            return;
+        }
         while (index < position) {
             prev = start;
             start = start.next;
             index++;
         }
         if (prev != null && start != null) prev.next = start.next;
+    }
+
+    public int countNodes() {
+        var count = 0;
+        var start = this.head;
+        while (start != null) {
+            count++;
+            start = start.next;
+        }
+        return count;
     }
 }

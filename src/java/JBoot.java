@@ -11,5 +11,6 @@ public class JBoot {
         linkedList.traverseList();
         linkedList.deleteNode(2);
         linkedList.traverseList();
+        System.out.println("Length of the list " + linkedList.countNodes());
     }
 }
