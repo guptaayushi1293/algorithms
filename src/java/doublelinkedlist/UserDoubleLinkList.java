@@ -43,13 +43,13 @@ public class UserDoubleLinkList {
             head = node;
         } else {
             var start = head;
-            while (pos > 1 && start.next != null) {
+            while (pos > 0 && start != null) {
                 start = start.next;
                 pos--;
             }
-            node.next = start.next;
-            start.next = node;
-            node.prev = start;
+            node.next = start;
+            node.prev = start.prev;
+            start.prev = node;
             if (node.next != null) node.next.prev = node;
         }
     }
