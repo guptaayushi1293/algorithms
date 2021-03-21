@@ -28,4 +28,16 @@ public class LinkedListQues2 {
         }
         return slowPtr;
     }
+
+    public int lengthOfLoop() {
+        var node = startOfCycle();
+        if (node == null) return 0;
+        var count = 1;
+        var temp = node.next;
+        while (temp != node) {
+            temp = temp.next;
+            count++;
+        }
+        return count;
+    }
 }
