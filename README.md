@@ -11,3 +11,8 @@ https://www.docdroid.net/ZPfHmS5/data-structures-and-algorithms-narasimha-karuma
 2. Sorted Array (Easy, Stack, scala)
 3. Binary String of length n (Easy, Stack, scala)
 4. K-ary String of length n (Medium, Stack, scala)
+5. Implement stack using Linked List (Easy, Linked List, Java)
+6. Get Nth Element from end of the linked list (Easy, Linked List, Java)
+7. Detect whether a linked list contains loop (Medium, Linked List, Java)
+8. If Linked list contains loop, then detect start of the loop (Medium, Linked List, Java)
+9. If Linked list contains loop, then detect length of the loop (Medium, Linked List, Java)
