@@ -1,6 +1,6 @@
 package linkedlist;
 
-class Node {
+protected class Node {
     int n;
     Node next;
 
