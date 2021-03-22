@@ -16,3 +16,5 @@ https://www.docdroid.net/ZPfHmS5/data-structures-and-algorithms-narasimha-karuma
 7. Detect whether a linked list contains loop (Medium, Linked List, Java)
 8. If Linked list contains loop, then detect start of the loop (Medium, Linked List, Java)
 9. If Linked list contains loop, then detect length of the loop (Medium, Linked List, Java)
+10. Insert node in sorted linked list (Easy, Linked List, Java)
+11. Reverse Linked list (Easy, Linked List, Java)
