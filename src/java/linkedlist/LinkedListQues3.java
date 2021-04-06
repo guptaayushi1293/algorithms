@@ -1,3 +1,5 @@
+package linkedlist;
+
 class LinkedListQues3{
     private Node head;
 

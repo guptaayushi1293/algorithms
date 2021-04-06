@@ -1,17 +1,5 @@
 package doublelinkedlist;
 
-class Node {
-    int value;
-    Node next;
-    Node prev;
-
-    Node (int value, Node next, Node prev) {
-        this.value = value;
-        this.next = next;
-        this.prev = prev;
-    }
-}
-
 public class UserDoubleLinkList {
     Node head;
 
